@@ -1,7 +1,13 @@
-var n = 10
-  for (var x = 2; n < 10; x++ ){
-    if (n%x ===0){
-      console.log (n);
+var number = 2;
+while (number < 10){
+  var count = 0;
+  for (var i = 0; i < number; i++){
+    if (number%i == 0){
+      count++;
     }
-    console.log (n>1);
+    if (count < 3){
+      console.log ("2");
+    }
+  console.log (number);
   }
+}
