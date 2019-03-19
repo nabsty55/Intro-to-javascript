@@ -64,16 +64,4 @@ let sortAscending = array => {
 
   }
 console.log("==============================array in ascending order");
-console.log(sortAscending((arr)));
-
-/*const ascendingArray = (a) => {
-  for(i = 0; i <a.length; i++){
-      for(j = 0; j < a.length -1; j++) {
-        if(arr[j] > arr[i]){
-                  temp = arr[i]; //swap them
-				  arr[i] = arr[j];
-                  arr[j] = temp;
-                }
-       }
-}
-}*/
+console.log(sortAscending(arr));
